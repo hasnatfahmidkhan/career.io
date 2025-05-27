@@ -88,11 +88,10 @@ header {
 }
 header .navbar {
   width: 100%;
-  max-width: 1260px;
   height: 100%;
   background-color: var(--header-bg);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0 1.5rem;
   border-radius: 0 0 0.625rem 0.625rem;
