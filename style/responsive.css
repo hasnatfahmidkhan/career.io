@@ -53,16 +53,69 @@
   /* ===== End: Main Section ===== */
 
   /* ===== Start: BLOG SECTION ===== */
+  .blog-container .blog-heading {
+    width: 80%;
+    text-align: center;
+  }
+  .blog-heading h2 {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .blog-heading p {
+    font-size: 1rem;
+  }
 
   .blog-img {
     display: flex;
     justify-content: center;
-    
   }
   .blog-content img {
     width: 60%;
   }
   /* ===== End: BLOG SECTION ===== */
+
+  /* ===== Start: INSPIRATION SECTION ===== */
+  
+  .iframe-container {
+    width: 400px;
+  }
+
+  .iframe-container iframe {
+    width: 100%;
+  }
+  
+  /* ===== End: INSPIRATION SECTION ===== */
+
+  /* ===== Start: Target Section ===== */
+  .target-top-text {
+    width: 80%;
+    text-align: center;
+  }
+  .cards-container {
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .cards-container .card {
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 0;
+  }
+  /* ===== End: Target Section ===== */
+
+  /* ===== Start: FOOTER SECTION ===== */
+  footer .footer-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+  /* ===== End: FOOTER SECTION ===== */
 }
 /* ===== End: TAblet Devices ===== */
 
@@ -97,16 +150,25 @@
   /* ===== End: MAIN SECTION ===== */
 
   /* ===== Start: Blog SEction ===== */
-  
-   .blog-img {
+
+  .blog-img {
     display: flex;
     justify-content: center;
-    
   }
   .blog-content img {
     width: 80%;
   }
-  
   /* ===== End: Blog SEction ===== */
+
+  /* ===== Start: FOOTER SECTION ===== */
+  footer .footer-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+  /* ===== End: FOOTER SECTION ===== */
 }
 /* ===== End: Mobile Devices up to 425px ===== */
