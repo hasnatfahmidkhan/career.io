@@ -180,7 +180,6 @@ main .banner {
   padding: 3rem;
   border-radius: 1rem;
   gap: 2rem;
-  flex-wrap: wrap;
 }
 .blog-content .blog-content-text {
   display: flex;

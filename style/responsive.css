@@ -12,13 +12,25 @@
   }
 
   /* ===== End: MAIN SECTION  ===== */
-  /* .blog-container {
-    width: 90vw;
-  }
+
+  /* ===== Start: BLOG SECTION ===== */
 
   .blog-container {
     width: 90vw;
-  } */
+  }
+
+  .blog-content {
+    width: 100%;
+    flex-direction: column-reverse;
+    padding: 3rem;
+    gap: 2rem;
+  }
+
+  .blog-content .blog-content-text {
+    align-items: center;
+    text-align: center;
+  }
+  /* ===== End: BLOG SECTION ===== */
 }
 
 /* ===== End: Laptop Devices ===== */
@@ -42,9 +54,16 @@
 
   /* ===== Start: BLOG SECTION ===== */
 
+  .blog-img {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .blog-content img {
+    width: 60%;
+  }
   /* ===== End: BLOG SECTION ===== */
 }
-
 /* ===== End: TAblet Devices ===== */
 
 /* ===== Start: Mobile Devices up to 425px ===== */
@@ -60,21 +79,34 @@
 
   header .navbar {
     justify-content: space-between;
-    padding: 0 1.5rem; 
+    padding: 0 1.5rem;
   }
 
   .navbar h2 {
-    font-size: 2rem; 
+    font-size: 2rem;
   }
   /* ===== End: heHEADER SECTION ===== */
 
   /* ===== Start: MAIN SECTION ===== */
   .banner-content .banner-content--text h1 {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .banner-content .banner-content--text p {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
   /* ===== End: MAIN SECTION ===== */
+
+  /* ===== Start: Blog SEction ===== */
+  
+   .blog-img {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .blog-content img {
+    width: 80%;
+  }
+  
+  /* ===== End: Blog SEction ===== */
 }
 /* ===== End: Mobile Devices up to 425px ===== */
