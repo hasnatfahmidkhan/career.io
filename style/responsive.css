@@ -1,13 +1,24 @@
 /* ===== Start: Laptop Devices ===== */
 
 @media screen and (max-width: 1200px) {
-  .blog-container {
+  /* ===== Start: MAIN SECTION  ===== */
+
+  main {
+    width: 90vw;
+  }
+
+  .banner-content .banner-content--text h1 {
+    font-size: 2.5rem;
+  }
+
+  /* ===== End: MAIN SECTION  ===== */
+  /* .blog-container {
     width: 90vw;
   }
 
   .blog-container {
     width: 90vw;
-  }
+  } */
 }
 
 /* ===== End: Laptop Devices ===== */
@@ -21,46 +32,22 @@
   }
 
   .banner .banner-img img {
-    width: 200px;
+    width: 80%;
   }
 
   .banner-content .banner-content--text h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   /* ===== End: Main Section ===== */
 
   /* ===== Start: BLOG SECTION ===== */
-
-  .blog-container {
-    width: 90vw;
-  }
-  .blog-container .blog-heading {
-    width: 90%;
-  }
-
-  .blog-content {
-    height: 100%;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .blog-content-text {
-    align-items: center;
-    text-align: center;
-  }
-
-  .blog-content img {
-    width: 300px;
-    height: 250px;
-  }
 
   /* ===== End: BLOG SECTION ===== */
 }
 
 /* ===== End: TAblet Devices ===== */
 
-/* ===== Start: Mobile Devices ===== */
-
+/* ===== Start: Mobile Devices up to 425px ===== */
 @media screen and (max-width: 640px) {
   /* ===== Start: HEADER SECTION ===== */
   .btn {
@@ -94,28 +81,4 @@
 
   /* ===== End: MAIN SECTION ===== */
 }
-
 /* ===== End: Mobile Devices ===== */
-
-/* ===== Start: small phone Name ===== */
-
-@media screen and (max-width: 400px) {
-  .navbar h2 {
-    font-size: 2.3rem; /* 40px */
-    font-weight: 800;
-  }
-
-  /* ===== Start: MAIN SECTION ===== */
-
-  .banner .banner-img img {
-    width: 150px;
-  }
-
-  .banner-content .banner-content--text h1 {
-    font-size: 1rem;
-  }
-
-  /* ===== End: MAIN SECTION ===== */
-}
-
-/* ===== End: small phone Name ===== */
